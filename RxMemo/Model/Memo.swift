@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+//메모 모델 구현
 struct Memo : Equatable {
     var content : String
     var insertDate : Date
