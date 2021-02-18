@@ -14,6 +14,7 @@
 		DA9AAA4C25DE5B4600CB6038 /* RxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA9AAA4A25DE5B4600CB6038 /* RxMemo.xcdatamodeld */; };
 		DA9AAA4E25DE5B4700CB6038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA9AAA4D25DE5B4700CB6038 /* Assets.xcassets */; };
 		DA9AAA5125DE5B4700CB6038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9AAA4F25DE5B4700CB6038 /* LaunchScreen.storyboard */; };
+		DA9AAA9025DE659D00CB6038 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9AAA8F25DE659D00CB6038 /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		DA9AAA4D25DE5B4700CB6038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA9AAA5025DE5B4700CB6038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA9AAA5225DE5B4800CB6038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9AAA8F25DE659D00CB6038 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		F1A6E42369ADA399DDBAD680 /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 		DA9AAA8925DE649B00CB6038 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA9AAA8F25DE659D00CB6038 /* Memo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				DA9AAA4225DE5B4600CB6038 /* AppDelegate.swift in Sources */,
 				DA9AAA4425DE5B4600CB6038 /* SceneDelegate.swift in Sources */,
 				DA9AAA4C25DE5B4600CB6038 /* RxMemo.xcdatamodeld in Sources */,
+				DA9AAA9025DE659D00CB6038 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
