@@ -28,6 +28,7 @@
 		DABF110925DF8F65006C377E /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF110825DF8F65006C377E /* Scene.swift */; };
 		DABF110C25DF90E8006C377E /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF110B25DF90E8006C377E /* SceneCoordinatorType.swift */; };
 		DABF110F25DF9163006C377E /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF110E25DF9163006C377E /* SceneCoordinator.swift */; };
+		DABF111F25DF9A25006C377E /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF111E25DF9A25006C377E /* CommonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		DABF110825DF8F65006C377E /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
 		DABF110B25DF90E8006C377E /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		DABF110E25DF9163006C377E /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		DABF111E25DF9A25006C377E /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		F1A6E42369ADA399DDBAD680 /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 				DA9AAAA325DE6C9D00CB6038 /* MemoListViewModel.swift */,
 				DA9AAAA625DE6CC300CB6038 /* MemoDetailViewModel.swift */,
 				DA9AAAA925DE6CE700CB6038 /* MemoComposeViewModel.swift */,
+				DABF111E25DF9A25006C377E /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				DABF110C25DF90E8006C377E /* SceneCoordinatorType.swift in Sources */,
 				DA9AAAA425DE6C9D00CB6038 /* MemoListViewModel.swift in Sources */,
 				DA9AAAA725DE6CC300CB6038 /* MemoDetailViewModel.swift in Sources */,
+				DABF111F25DF9A25006C377E /* CommonViewModel.swift in Sources */,
 				DABF110625DF8F1D006C377E /* TransitionModel.swift in Sources */,
 				DA9AAA9B25DE6C1300CB6038 /* MemoListViewController.swift in Sources */,
 				DA9AAAA125DE6C5B00CB6038 /* MemoComposeViewController.swift in Sources */,
