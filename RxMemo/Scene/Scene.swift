@@ -52,7 +52,7 @@ extension Scene {
             
             
         case .compose(let viewModel):
-            guard let nav = storyboard.instantiateViewController(withIdentifier: "ComposeNavigation") as? UINavigationController else {
+            guard let nav = storyboard.instantiateViewController(withIdentifier: "ComposeNav") as? UINavigationController else {
                 fatalError()
             }
             

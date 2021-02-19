@@ -38,6 +38,8 @@ class MemoListViewController: UIViewController,viewModelBindableType {
             .bind(to: listTableView.rx.items(cellIdentifier: "cell")) { row, memo, cell in
                 cell.textLabel?.text = memo.content
             }.disposed(by: rx_disposeBag)
+        
+        addButton.rx.action = viewModel.makeCreateAction()
     }
     
 
