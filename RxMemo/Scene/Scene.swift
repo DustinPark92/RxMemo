@@ -28,7 +28,7 @@ extension Scene {
             
             
         case .list(let viewModel):
-            guard let nav = storyboard.instantiateViewController(withIdentifier: "ListNavigation") as? UINavigationController else {
+            guard let nav = storyboard.instantiateViewController(withIdentifier: "ListNav") as? UINavigationController else {
                 fatalError()
             }
             

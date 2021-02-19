@@ -24,7 +24,7 @@ class CommonViewModel : NSObject {
     //protocol로 선언 의존성을 쉽게 선언 할 수 있다.
     
     init(title : String,sceneCoordinator : SceneCoordinatorType , storage : MemoStorageType ) {
-        self.title = Observable.just(title).asDriver(onErrorRecover: "")
+        self.title = Observable.just(title).asDriver(onErrorJustReturn: "")
         self.sceneCoordinator = sceneCoordinator
         self.storage = storage
     }

@@ -22,4 +22,6 @@ class MemoListViewModel : CommonViewModel {
     
     
     
+    
+    
 }
